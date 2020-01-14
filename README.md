@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # juzimi
 个人制作的句子迷APP,MVP架构,Okhttp + Retrofit + RxJava,数据库选用Object-box
 
@@ -109,3 +110,7 @@ Home:dabutaizha.cc
 
 若该涉及版权问题，请联系我 dabutaizha@163.com 将立即撤除
 
+=======
+# jianshu
+卡片换肤
+>>>>>>> 5eaa8c8940c24029ec987852037040e31b69cd13
