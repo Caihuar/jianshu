@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/white_dark">
+
+    <ImageView
+        android:id="@+id/app_nav_header_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/share_card_default_bg"/>
+
+    <TextView
+        android:id="@+id/app_login_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@drawable/background_login_out"
+        android:fontFamily="@font/font_family_second"
+        android:lineSpacingExtra="5sp"
+        android:text="欢迎\nXXXX"
+        android:visibility="gone"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <RelativeLayout
+        android:id="@+id/app_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/app_add_personal_sentences"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_add_personal_sentences"
+            android:text="@string/easter_eggs_tis"
+            android:textColor="@color/white"
+            android:fontFamily="@font/font_family"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/app_collect_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="本地卡片数：80"
+            android:fontFamily="@font/font_family"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_below="@id/app_add_personal_sentences"
+            android:layout_marginTop="@dimen/dp_10" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
