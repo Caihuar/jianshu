@@ -98,19 +98,14 @@
 
 <img src="https://s1.ax1x.com/2018/12/11/FJ7xEQ.png" width="180" height="180" alt="扫描下载"/>
 
-# 关于我
+
+# 声明
+该项目为转载原作者联系方式如下
 
 Email:dabutaizha@163.com
 
 Home:dabutaizha.cc
 
-# 声明
-
-该项目纯属兴趣爱好仅供学习交流使用，不得用于商业用途！
-
-若该涉及版权问题，请联系我 dabutaizha@163.com 将立即撤除
-
 =======
 # jianshu
-卡片换肤
 >>>>>>> 5eaa8c8940c24029ec987852037040e31b69cd13
